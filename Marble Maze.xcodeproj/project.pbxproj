@@ -9,24 +9,24 @@
 /* Begin PBXBuildFile section */
 		3697A3E627AEF04200B9287F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3697A3E527AEF04200B9287F /* AppDelegate.swift */; };
 		3697A3E827AEF04200B9287F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3697A3E727AEF04200B9287F /* GameScene.sks */; };
-		3697A3EA27AEF04200B9287F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3697A3E927AEF04200B9287F /* Actions.sks */; };
 		3697A3EC27AEF04200B9287F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3697A3EB27AEF04200B9287F /* GameScene.swift */; };
 		3697A3EE27AEF04200B9287F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3697A3ED27AEF04200B9287F /* GameViewController.swift */; };
 		3697A3F127AEF04200B9287F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3697A3EF27AEF04200B9287F /* Main.storyboard */; };
 		3697A3F327AEF04800B9287F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3697A3F227AEF04800B9287F /* Assets.xcassets */; };
 		3697A3F627AEF04800B9287F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3697A3F427AEF04800B9287F /* LaunchScreen.storyboard */; };
+		3697A3FD27AEF0E200B9287F /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697A3FC27AEF0E200B9287F /* level1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3697A3E227AEF04200B9287F /* Marble Maze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marble Maze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3697A3E527AEF04200B9287F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3697A3E727AEF04200B9287F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		3697A3E927AEF04200B9287F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		3697A3EB27AEF04200B9287F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		3697A3ED27AEF04200B9287F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		3697A3F027AEF04200B9287F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3697A3F227AEF04800B9287F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3697A3F527AEF04800B9287F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3697A3FC27AEF0E200B9287F /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +61,12 @@
 			children = (
 				3697A3E527AEF04200B9287F /* AppDelegate.swift */,
 				3697A3E727AEF04200B9287F /* GameScene.sks */,
-				3697A3E927AEF04200B9287F /* Actions.sks */,
 				3697A3EB27AEF04200B9287F /* GameScene.swift */,
 				3697A3ED27AEF04200B9287F /* GameViewController.swift */,
 				3697A3EF27AEF04200B9287F /* Main.storyboard */,
 				3697A3F227AEF04800B9287F /* Assets.xcassets */,
 				3697A3F427AEF04800B9287F /* LaunchScreen.storyboard */,
+				3697A3FC27AEF0E200B9287F /* level1.txt */,
 			);
 			path = "Marble Maze";
 			sourceTree = "<group>";
@@ -129,11 +129,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3697A3FD27AEF0E200B9287F /* level1.txt in Resources */,
 				3697A3F127AEF04200B9287F /* Main.storyboard in Resources */,
 				3697A3E827AEF04200B9287F /* GameScene.sks in Resources */,
 				3697A3F327AEF04800B9287F /* Assets.xcassets in Resources */,
 				3697A3F627AEF04800B9287F /* LaunchScreen.storyboard in Resources */,
-				3697A3EA27AEF04200B9287F /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +301,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,7 +312,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -329,7 +329,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -340,7 +340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
