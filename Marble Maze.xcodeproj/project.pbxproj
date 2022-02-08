@@ -16,6 +16,10 @@
 		3697A3F627AEF04800B9287F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3697A3F427AEF04800B9287F /* LaunchScreen.storyboard */; };
 		3697A3FD27AEF0E200B9287F /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3697A3FC27AEF0E200B9287F /* level1.txt */; };
 		3697A3FF27AEF7E700B9287F /* CollisionTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3697A3FE27AEF7E700B9287F /* CollisionTypes.swift */; };
+		36A7E00B27B1A91F007D7D39 /* level3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36A7E00927B1A91F007D7D39 /* level3.txt */; };
+		36A7E00C27B1A91F007D7D39 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36A7E00A27B1A91F007D7D39 /* level2.txt */; };
+		36A7E01027B2FE41007D7D39 /* scr001.png in Resources */ = {isa = PBXBuildFile; fileRef = 36A7E00E27B2FE41007D7D39 /* scr001.png */; };
+		36A7E01127B2FE41007D7D39 /* scr002.png in Resources */ = {isa = PBXBuildFile; fileRef = 36A7E00F27B2FE41007D7D39 /* scr002.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		3697A3F527AEF04800B9287F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3697A3FC27AEF0E200B9287F /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 		3697A3FE27AEF7E700B9287F /* CollisionTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionTypes.swift; sourceTree = "<group>"; };
+		36A7E00927B1A91F007D7D39 /* level3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level3.txt; sourceTree = "<group>"; };
+		36A7E00A27B1A91F007D7D39 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
+		36A7E00E27B2FE41007D7D39 /* scr001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scr001.png; sourceTree = "<group>"; };
+		36A7E00F27B2FE41007D7D39 /* scr002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scr002.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 		3697A3D927AEF04200B9287F = {
 			isa = PBXGroup;
 			children = (
+				36A7E00D27B2F476007D7D39 /* Screenshots */,
 				3697A3E427AEF04200B9287F /* Marble Maze */,
 				3697A3E327AEF04200B9287F /* Products */,
 			);
@@ -62,16 +71,27 @@
 			isa = PBXGroup;
 			children = (
 				3697A3E527AEF04200B9287F /* AppDelegate.swift */,
+				3697A3F227AEF04800B9287F /* Assets.xcassets */,
+				3697A3FE27AEF7E700B9287F /* CollisionTypes.swift */,
 				3697A3E727AEF04200B9287F /* GameScene.sks */,
 				3697A3EB27AEF04200B9287F /* GameScene.swift */,
 				3697A3ED27AEF04200B9287F /* GameViewController.swift */,
-				3697A3EF27AEF04200B9287F /* Main.storyboard */,
-				3697A3F227AEF04800B9287F /* Assets.xcassets */,
 				3697A3F427AEF04800B9287F /* LaunchScreen.storyboard */,
 				3697A3FC27AEF0E200B9287F /* level1.txt */,
-				3697A3FE27AEF7E700B9287F /* CollisionTypes.swift */,
+				36A7E00A27B1A91F007D7D39 /* level2.txt */,
+				36A7E00927B1A91F007D7D39 /* level3.txt */,
+				3697A3EF27AEF04200B9287F /* Main.storyboard */,
 			);
 			path = "Marble Maze";
+			sourceTree = "<group>";
+		};
+		36A7E00D27B2F476007D7D39 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				36A7E00E27B2FE41007D7D39 /* scr001.png */,
+				36A7E00F27B2FE41007D7D39 /* scr002.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +153,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3697A3FD27AEF0E200B9287F /* level1.txt in Resources */,
+				36A7E00C27B1A91F007D7D39 /* level2.txt in Resources */,
+				36A7E00B27B1A91F007D7D39 /* level3.txt in Resources */,
 				3697A3F127AEF04200B9287F /* Main.storyboard in Resources */,
 				3697A3E827AEF04200B9287F /* GameScene.sks in Resources */,
+				36A7E01127B2FE41007D7D39 /* scr002.png in Resources */,
 				3697A3F327AEF04800B9287F /* Assets.xcassets in Resources */,
+				36A7E01027B2FE41007D7D39 /* scr001.png in Resources */,
 				3697A3F627AEF04800B9287F /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
